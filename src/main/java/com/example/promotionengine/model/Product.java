@@ -3,7 +3,7 @@ package com.example.promotionengine.model;
 public class Product {
 	
 	public String id;
-	public double price;
+	public int price;
 	
 	/*Getter and Setter*/
 	public String getId() {
@@ -12,10 +12,10 @@ public class Product {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public double getPrice() {
+	public int getPrice() {
 		return price;
 	}
-	public void setPrice(double d) {
+	public void setPrice(int d) {
 		this.price = d;
 	}
 	
