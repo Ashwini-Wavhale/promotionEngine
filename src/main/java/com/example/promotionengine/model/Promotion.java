@@ -5,7 +5,7 @@ import java.util.Dictionary;
 public class Promotion {
 	public int promotionId;
 	public Dictionary<String, Integer> ProductInfo;
-	public float promoPrice;
+	public double promoPrice;
 
 	public int getPromotionId() {
 		return promotionId;
@@ -23,11 +23,11 @@ public class Promotion {
 		ProductInfo = productInfo;
 	}
 
-	public float getPromoPrice() {
+	public double getPromoPrice() {
 		return promoPrice;
 	}
 
-	public void setPromoPrice(float promoPrice) {
+	public void setPromoPrice(double promoPrice) {
 		this.promoPrice = promoPrice;
 	}
 }
