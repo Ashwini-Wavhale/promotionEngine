@@ -6,7 +6,7 @@ import com.example.promotionengine.model.Product;
 
 public class PromotionChecker {
 
-	public int getTotalPrice(List<Product> products) {
+	public static int getTotalPrice(List<Product> products) {
 
 		int counterofA = 0, counterofB = 0, CounterofC = 0, CounterofD = 0;
 
@@ -16,16 +16,16 @@ public class PromotionChecker {
 		Product D = new Product("D");
 
 		for (Product pr : products) {
-			if (pr.id == "A" || pr.id == "A") {
+			if (pr.id == "A" || pr.id == "a") {
 				counterofA = counterofA + 1;
 			}
-			if (pr.id == "B" || pr.id == "B") {
+			if (pr.id == "B" || pr.id == "b") {
 				counterofB = counterofB + 1;
 			}
-			if (pr.id == "C" || pr.id == "C") {
+			if (pr.id == "C" || pr.id == "c") {
 				CounterofC = CounterofC + 1;
 			}
-			if (pr.id == "D" || pr.id == "D") {
+			if (pr.id == "D" || pr.id == "d") {
 				CounterofD = CounterofD + 1;
 			}
 		}
